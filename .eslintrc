@@ -2,5 +2,8 @@
   "extends": "@immowelt/eslint-config-immowelt-react",
   "globals": {
     "Generator": true
+  },
+  "settings": {
+    "polyfills": ["promises"]
   }
 }
