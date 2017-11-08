@@ -1,5 +1,6 @@
 {
   "presets": [
     "@immowelt/babel-preset-immowelt-react"
-  ]
+  ],
+  "plugins": ["transform-es2015-modules-commonjs"]
 }
