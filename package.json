@@ -1,0 +1,82 @@
+{
+  "name": "redux-lumbergh",
+  "version": "0.0.0-development",
+  "private": false,
+  "author": "Immonet dev team <aegaeon@immonet.de> (https://immonet.de)",
+  "license": "MIT",
+  "description": "Yeah, if you could go ahead and embrace best practices while working with redux, that would be great!",
+  "main": "./dist/",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "npm run lint && npm run flow && npm run jest:coverage",
+    "lint": "eslint src",
+    "prettier": "prettier --write src/**/*.js",
+    "jest": "jest",
+    "jest:watch": "npm run jest -- --watch",
+    "jest:coverage": "npm run jest -- --coverage",
+    "build:clean": "rimraf dist",
+    "build:babel": "NODE_ENV=production babel src --out-dir dist --ignore spec.js",
+    "build:flow": "flow-copy-source -v src dist --ignore='*.spec.js'",
+    "prebuild": "npm run build:clean",
+    "build": "npm run build:babel && npm run build:flow",
+    "flow": "flow",
+    "flow-typed": "flow-typed",
+    "flow-typed-install": "flow-typed install --ignoreDeps=bundled peer --overwrite",
+    "prepare": "npm run flow-typed-install || true",
+    "prepublishOnly": "npm run build",
+    "precommit": "lint-staged && npm test"
+  },
+  "lint-staged": {
+    "**/*.{js,json,css}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=8.9.0",
+    "yarn": ">=1.0.2"
+  },
+  "keywords": [
+    "redux",
+    "util",
+    "redux-saga",
+    "actionType",
+    "createActionType",
+    "createReducer",
+    "createRootSaga"
+  ],
+  "devDependencies": {
+    "@immowelt/babel-preset-immowelt-react": "^1.1.4",
+    "@immowelt/eslint-config-immowelt-react": "^2.0.0",
+    "@immowelt/jest-preset-react": "^1.1.0",
+    "@immowelt/styleguide-javascript": "^1.0.6",
+    "@inkdpixels/commit-analyzer": "^1.0.1",
+    "@inkdpixels/release-notes-generator": "^1.0.1",
+    "babel-cli": "^6.26.0",
+    "eslint": "^4.4.1",
+    "flow-bin": "^0.58.0",
+    "flow-copy-source": "^1.2.1",
+    "flow-typed": "^2.1.2",
+    "husky": "^0.14.3",
+    "jest": "^21.0.0",
+    "lint-staged": "^4.1.2",
+    "prettier": "^1.6.1",
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.4",
+    "rimraf": "^2.6.1",
+    "semantic-release": "^8.2.0"
+  },
+  "peerDependencies": {
+    "redux": "^3.7.2",
+    "redux-saga": "^0.15.4"
+  },
+  "jest": {
+    "preset": "@immowelt/jest-preset-react"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImmoweltGroup/redux-lumbergh.git"
+  }
+}
