@@ -1,4 +1,4 @@
-// ToDo: Find out why the typings aren't propagated.
+// @flow
 
 export * from './combineReduxDucks.js';
 export * from './createActionTypeFactory.js';

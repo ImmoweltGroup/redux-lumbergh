@@ -27,7 +27,7 @@
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "lint-staged": {
-    "**/*.{js,json,css}": [
+    "src/**/*.{js,json,css}": [
       "prettier --write",
       "git add"
     ]
