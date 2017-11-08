@@ -6,9 +6,6 @@
   "license": "MIT",
   "description": "Yeah, if you could go ahead and embrace best practices while working with redux, that would be great!",
   "main": "./dist/",
-  "files": [
-    "src"
-  ],
   "scripts": {
     "test": "npm run lint && npm run flow && npm run jest:coverage",
     "lint": "eslint src",
