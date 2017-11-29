@@ -20,7 +20,9 @@ import createRootSaga from './createRootSaga.js';
  * @param  {Array} modules       The list of redux ducks exports to combine.
  * @return {Object}              The context which contains the finalized rootReducer and rootSaga.
  */
-function combineReduxDucks(opts: OptsType = {ducks: [], context: 'client'}) {
+function combineReduxDucks(
+  opts: OptsType = {ducks: [], context: 'client'}
+): {rootSaga: Function, rootReducer: Function} {
   const {ducks, context} = opts;
   const isUniversalContext = context === 'universal';
   const isServerSideContext = context === 'server';
