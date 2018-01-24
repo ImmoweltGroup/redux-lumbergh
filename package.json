@@ -78,7 +78,7 @@
   },
   "peerDependencies": {
     "redux": "^3.7.2",
-    "redux-saga": "^0.15.4"
+    "redux-saga": "^0.16.0"
   },
   "jest": {
     "preset": "@immowelt/jest-preset-react"
