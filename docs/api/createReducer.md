@@ -1,4 +1,4 @@
-# `createReducer(actionHandlers: Object, initialState: any)`
+# `createReducer(initialState: any, actionHandlers: Object)`
 The `createReducer` function can be used to reduce boilerplate code in your application.
 
 The function signature is pretty easy, the first argument is an object containing keys which match the `actionType` you want to handle, the value is the `actionHandler` function that will be called with the actions `payload` and a second argument which is the current state.
@@ -20,7 +20,7 @@ const actionHandlers = {
   //
 	'myActionType': payload => $set(['foo'], payload.value)
 };
-const reducer = createReducer(actionHandlers, initialState);
+const reducer = createReducer(initialState, actionHandlers);
 ```
 
 The finalized `reducer` can now be passed to either the `createStore` or `combineReducer` function of redux.
