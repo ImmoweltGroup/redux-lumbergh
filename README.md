@@ -11,6 +11,12 @@
 
 > Yeah, if you could go ahead and embrace best practices while working with redux, that would be great!
 
+## Features
+
+* Automatically handles best practices for redux applications
+* Declarative definitions of context/environment specific sagas
+* Write less code, drink more coffee
+
 ## Installation
 
 To install the latest stable version:
@@ -18,12 +24,6 @@ To install the latest stable version:
 ```sh
 yarn add redux-lumbergh
 ```
-
-## Features
-
-* Automatically handles best practices for redux applications
-* Declarative definitions of context/environment specific sagas
-* Write less code, drink more coffee
 
 ## Documentation
 

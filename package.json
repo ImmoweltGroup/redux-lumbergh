@@ -18,14 +18,8 @@
     "lint": "eslint src",
     "prettier": "prettier --write src/**/*.js",
     "prepublishOnly": "yarn build",
-    "release": "semantic-release pre && npm publish && semantic-release post"
+    "release": "semantic-release"
   },
-  "browserslist": [
-    "> 5%",
-    "last 2 versions",
-    "Firefox ESR",
-    "ie 11"
-  ],
   "engines": {
     "node": ">=8.11.4",
     "yarn": ">=1.6.0"
