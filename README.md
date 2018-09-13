@@ -12,22 +12,21 @@
 > Yeah, if you could go ahead and embrace best practices while working with redux, that would be great!
 
 ## Installation
+
 To install the latest stable version:
 
 ```sh
-# Using npm
-npm install --save redux-lumbergh
-
-# or using yarn
 yarn add redux-lumbergh
 ```
 
 ## Features
+
 * Automatically handles best practices for redux applications
 * Declarative definitions of context/environment specific sagas
 * Write less code, drink more coffee
 
 ## Documentation
+
 * [Introduction](/docs/introduction/README.md)
 * [API](/docs/api/README.md)
   * [combineReduxDucks](/docs/api/combineReduxDucks.md)
@@ -35,10 +34,11 @@ yarn add redux-lumbergh
   * [createEnvironmentSpecificSaga](/docs/api/createEnvironmentSpecificSaga.md)
   * [createReducer](/docs/api/createReducer.md)
   * [createRootSaga](/docs/api/createRootSaga.md)
-* [FAQ](/docs/api/FAQ.md)
 
 ## Contributing
+
 See the `CONTRIBUTING.md` file at the root of the repository.
 
 ## Licensing
+
 See the `LICENSE` file at the root of the repository.
