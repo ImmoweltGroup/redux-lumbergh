@@ -42,7 +42,7 @@
     "@immowelt/jest-preset-react": "1.2.1",
     "babel-cli": "6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
-    "enzyme": "3.7.0",
+    "enzyme": "3.8.0",
     "enzyme-adapter-react-16": "1.7.1",
     "eslint": "5.10.0",
     "flow-bin": "0.87.0",
