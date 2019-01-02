@@ -54,7 +54,7 @@
     "react-dom": "16.7.0",
     "redux": "4.0.1",
     "redux-saga": "0.16.2",
-    "rimraf": "2.6.2",
+    "rimraf": "2.6.3",
     "semantic-release": "13.4.1"
   },
   "peerDependencies": {
