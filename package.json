@@ -53,13 +53,13 @@
     "react": "16.8.3",
     "react-dom": "16.8.3",
     "redux": "4.0.1",
-    "redux-saga": "0.16.2",
+    "redux-saga": "1.0.2",
     "rimraf": "2.6.3",
     "semantic-release": "13.4.1"
   },
   "peerDependencies": {
     "redux": "^4.0.0",
-    "redux-saga": "^0.16.0"
+    "redux-saga": "^1.0.0"
   },
   "jest": {
     "preset": "@immowelt/jest-preset-react"
