@@ -43,7 +43,7 @@
     "babel-cli": "6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
     "enzyme": "3.9.0",
-    "enzyme-adapter-react-16": "1.11.0",
+    "enzyme-adapter-react-16": "1.11.2",
     "eslint": "5.15.1",
     "flow-bin": "0.94.0",
     "flow-copy-source": "2.0.3",
