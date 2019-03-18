@@ -8,7 +8,7 @@
   "main": "dist",
   "scripts": {
     "test": "jest",
-    "clean": "rimraf dist",
+    "clean": "rimraf dist node_modules flow-typed coverage",
     "build": "NODE_ENV=production babel src --out-dir dist --ignore spec.js && flow-copy-source -v src dist --ignore='*.spec.js'",
     "prebuild": "yarn clean",
     "flow": "flow",
