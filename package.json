@@ -40,6 +40,8 @@
     "@immowelt/babel-preset-immowelt-react": "1.2.4",
     "@immowelt/eslint-config-immowelt-react": "2.1.1",
     "@immowelt/jest-preset-react": "1.2.1",
+    "@semantic-release/github": "5.2.10",
+    "@semantic-release/npm": "5.1.4",
     "babel-cli": "6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
     "enzyme": "3.9.0",
@@ -55,7 +57,7 @@
     "redux": "4.0.1",
     "redux-saga": "1.0.2",
     "rimraf": "2.6.3",
-    "semantic-release": "13.4.1"
+    "semantic-release": "15.13.7"
   },
   "peerDependencies": {
     "redux": "^4.0.0",
