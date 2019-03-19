@@ -126,10 +126,10 @@
     eslint-plugin-react "7.11.1"
     eslint-plugin-standard "4.0.0"
 
-"@immowelt/jest-preset-react@1.2.1":
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/@immowelt/jest-preset-react/-/jest-preset-react-1.2.1.tgz#faadc13c839fc04a8a8132c6b964d37a335d6101"
-  integrity sha512-xHVH83JqBSprZvDKwG73wsA3KhjVmpxABI6ooBWowxpv1sRZ7oh5DkLzGmojGUS4Y+/ytDM4SsAOHIhqqVbPbA==
+"@immowelt/jest-preset-react@2.0.4":
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/@immowelt/jest-preset-react/-/jest-preset-react-2.0.4.tgz#13b1c694c14a8a04eefb3cc53e6143434959d9cc"
+  integrity sha512-kUx9Rqj32GT7sH/tUmp56LPxZnGqoB+vWc+Ibqh4TZcE4PkmiulkiXftQ+Z933FCn3noAQxPNzO5c6VNMz4vXw==
   dependencies:
     identity-obj-proxy "3.0.0"
 
