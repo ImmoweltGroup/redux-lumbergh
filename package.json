@@ -38,7 +38,7 @@
   ],
   "devDependencies": {
     "@immowelt/babel-preset-immowelt-react": "1.2.4",
-    "@immowelt/eslint-config-immowelt-react": "2.1.1",
+    "@immowelt/eslint-config-immowelt-react": "3.3.0",
     "@immowelt/jest-preset-react": "1.2.1",
     "@semantic-release/github": "5.2.10",
     "@semantic-release/npm": "5.1.4",
