@@ -41,7 +41,7 @@
     "@immowelt/eslint-config-immowelt-react": "2.1.1",
     "@immowelt/jest-preset-react": "1.2.1",
     "@semantic-release/github": "5.2.10",
-    "@semantic-release/npm": "5.1.4",
+    "@semantic-release/npm": "5.3.5",
     "babel-cli": "6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
     "enzyme": "3.9.0",
