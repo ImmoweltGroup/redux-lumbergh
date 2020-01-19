@@ -40,7 +40,7 @@
     "@immowelt/babel-preset-immowelt-react": "1.2.4",
     "@immowelt/eslint-config-immowelt-react": "2.1.1",
     "@immowelt/jest-preset-react": "1.2.1",
-    "@semantic-release/github": "5.2.10",
+    "@semantic-release/github": "6.0.1",
     "@semantic-release/npm": "5.1.4",
     "babel-cli": "6.26.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
