@@ -50,7 +50,7 @@
     "flow-bin": "0.97.0",
     "flow-copy-source": "2.0.3",
     "flow-typed": "2.5.1",
-    "jest": "23.6.0",
+    "jest": "25.5.4",
     "prettier": "1.17.0",
     "react": "16.8.6",
     "react-dom": "16.8.6",
